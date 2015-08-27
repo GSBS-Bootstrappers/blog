@@ -1,0 +1,32 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+# Margin theme created by Chris MacKay. Greatly inspired by the Tufte-CSS 
+# project for use by the GSBS Boostrappers Bioinformatics Blog
+
+# ATTENTION: The ETBembo font is the properpty of Edward Tufte and his colleagues. It is unclear what liscence they are available under. 
+
+# See these discussions: 
+    # https://github.com/daveliepmann/tufte-css/issues/12
+    # https://github.com/edwardtufte/presenter/issues/1
+    # https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000bm
+    # https://github.com/edwardtufte/presenter/blob/master/package.json
+
+name = "Margin"
+license = "MIT(*fonts not included)"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = ""
+homepage = "http://siteforthistheme.com/"
+tags = ["blog", "organization", "science", "responsive"]
+features = ["blog", "multiple authors", "responsive", "MathJax", "highlight.js", "BookTabs"]
+min_version = 0.14
+
+[author]
+  name = "Chris MacKay"
+  homepage = "https://github.com/crmackay"
+
+# If porting an existing theme
+[original]
+  name = "tufte-css"
+  homepage = "http://www.daveliepmann.com/tufte-css/"
+  repo = "https://github.com/daveliepmann/tufte-css"
