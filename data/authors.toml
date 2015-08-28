@@ -1,15 +1,10 @@
-["crmackay"]
-    name = "Chris MacKay"
 
+crmackay = "Chris MacKay"
 
-[arjanvandervelde]
-    name = "Arjan van der Velde"
+arjanvandervelde = "Arjan van der Velde"
 
-[Jill-Moore]
-    name = "Jill Moore"
+Jill-Moore = "Jill Moore"
 
-[nickjhathaway]
-    name = "Nick Hathaway"
+nickjhathaway = "Nick Hathaway"
 
-[purcaro]
-    name = "Mike Purcaro"
+purcaro = "Mike Purcaro"

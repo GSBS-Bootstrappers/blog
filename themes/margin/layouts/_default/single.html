@@ -29,11 +29,11 @@
                 <div class="author">
                     <img class="avatar" src="https://avatars.githubusercontent.com/{{ . }}"/>
                     <span class="author-name">
-                        {{ range $.Site.Data.authors }}
-                            {{ if eq . $author}}
-                                {{ .name }},</span>
-                            {{ end }}
-                        {{ end }}
+                        {{ $author }}
+
+                        
+                    </span>
+
                 </div>
             {{ end }}
         {{end}}
