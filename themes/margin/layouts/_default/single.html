@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+{{ $baseurl := .Site.BaseURL }}
+<body>
+
+    <div id="menuBtn">&#xe800;</div>
+    <div id="sidebar">
+
+        <div class="site-title">This is a title</div>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+        </ul>
+
+    </div>
+    <div id="container">
+    <div class="main-content">
+        <h1>
+            This is a title to a super awesome post
+        </h1>
+        <div class="post-date">
+            Date: {{.Date.Format "January 2, 2006"}}
+        </div>
+        <div class="post-byline">
+
+        <!--add categories, subtitles etc, section heading, and figures-->
+        {{ if isset .Params "authors"}}
+            {{ range .Params.authors }}
+                {{ $author := . }}
+                <div class="author">
+                    <img class="avatar" src="https://avatars.githubusercontent.com/{{ . }}"/>
+                    <span class="author-name">
+                        {{ range $.Site.Data.authors }}
+                            {{ if eq . $author}}
+                                {{ .name }},</span>
+                            {{ end }}
+                        {{ end }}
+                </div>
+            {{ end }}
+        {{end}}
+        </div>
+
+        <div class="post">
+            {{ .Content }}
+        </div>
+
+{{ partial "footer.html" }}
