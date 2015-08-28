@@ -17,8 +17,9 @@ If you would like to contribute some content to the blog, please be our guest. I
 
 ### Suggest a topic for an article
 
-If you have topic that your would like to see writen about, or a question that you would like to have answer, open an issue [here](https://github.com/GSBS-Bootstrappers/blog/issues) and enter your thoughts
+If you have a topic that you would like to see written about, or a question that you would like to have answered, open an issue [here](https://github.com/GSBS-Bootstrappers/blog/issues) and enter your thoughts.
 
 
 To do:
-[ ] - add more notes no writing markdown and filling in the frontmatter
+
+- [ ] - add more notes on writing markdown and filling in the frontmatter
