@@ -1,3 +1,4 @@
 baseurl = "http://bootstrappers.umassmed.edu/blog/"
 languageCode = "en-us"
 title = "Bootstrappers Blog"
+theme = "margin"
